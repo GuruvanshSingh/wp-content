@@ -27,7 +27,11 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-		<div id="leftBar"></div>
+		<div id="leftBar">
+		<div class="logo">
+					Circle <br> Supplies
+				</div>
+		</div>
 		<div id="centerBar">
 			<div id="centerTop"></div>
 			<div id="centerBottom"></div>
