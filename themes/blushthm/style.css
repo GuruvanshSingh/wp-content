@@ -973,22 +973,20 @@ top: 6.5%;
 }
 
 .site-branding{
-height: 99px;
-margin-left: 10%;
+height: 101px;
+margin-left: 13.4%;
 margin-top: 1%;
 }
 
 #leftBar{
-	height: 99px;
+	height: 101px;
 	border: solid black 1px;
-	background-image: url("/assets/img/logo_circle.png");
-	background-color: black;
-	width: 10%;
+	width: 6.4%;
 	float: left;
 }
 
 #centerBar{
-	height: 99px;
+	height: 101px;
 	border: solid black 1px;
 	width: 56.2%;
 	position: absolute;
@@ -1006,9 +1004,49 @@ margin-top: 1%;
 }
 
 #rightBar{
-	height: 99px;
+	height: 101px;
 	border: solid black 1px;
-	width: 10%;
+	width: 6.3%;
 	left: 75%;
 	position: absolute;
+}
+
+.footerLink{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.footerLeft{
+	text-align: center;
+	height: 200px;
+	width: 33%;
+}
+
+.footerCenter{
+	text-align: center;
+	height: 200px;
+	width: 34%;
+}
+
+.footerRight{
+	text-align: center;
+	height: 200px;
+	width: 33%;
+	padding: 3% 13%;
+}
+
+.logo{
+	border-radius: 50%;
+	border: solid black 3px;
+	width: 100px;
+	height: 100px;
+	padding: 14px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.site-info{
+	text-align: center;
 }
