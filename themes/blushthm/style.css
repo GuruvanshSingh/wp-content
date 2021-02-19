@@ -968,27 +968,41 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
+.site-branding{
+height: 99px;
+margin-left: 10%;
+}
+
 #leftBar{
 	height: 99px;
 	border: solid black 1px;
+	background-image: url("/assets/img/logo_circle.png");
+	width: 10%;
+	float: left;
 }
 
 #centerBar{
 	height: 99px;
 	border: solid black 1px;
+	width: 56.2%;
+	position: absolute;
+	left: 18.9%;
 }
 
 #centerTop{
-	height: 44.5px;
+	height: 50%;
 	border: solid black 1px;
 }
 
 #centerBottom{
-	height: 44.5px;
+	height: 50%;
 	border: solid black 1px;
 }
 
 #rightBar{
 	height: 99px;
 	border: solid black 1px;
+	width: 10%;
+	left: 75%;
+	position: absolute;
 }

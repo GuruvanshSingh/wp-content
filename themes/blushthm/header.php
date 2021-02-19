@@ -27,7 +27,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-		<div id="leftBar myLogo"></div>
+		<div id="leftBar"></div>
 		<div id="centerBar">
 			<div id="centerTop"></div>
 			<div id="centerBottom"></div>
