@@ -693,6 +693,7 @@ top: 6.5%;
 
 .main-navigation li {
 	position: relative;
+	margin-left: 10px;
 }
 
 .main-navigation a {
