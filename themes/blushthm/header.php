@@ -27,8 +27,12 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-		<div><img src="assets/img/logo_circle.png" alt=""></div>
-		<div></div>
+		<div id="leftBar myLogo"></div>
+		<div id="centerBar">
+			<div id="centerTop"></div>
+			<div id="centerBottom"></div>
+		</div>
+		<div id="rightBar"></div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">

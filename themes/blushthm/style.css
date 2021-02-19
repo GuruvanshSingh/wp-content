@@ -967,3 +967,28 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+#leftBar{
+	height: 99px;
+	border: solid black 1px;
+}
+
+#centerBar{
+	height: 99px;
+	border: solid black 1px;
+}
+
+#centerTop{
+	height: 44.5px;
+	border: solid black 1px;
+}
+
+#centerBottom{
+	height: 44.5px;
+	border: solid black 1px;
+}
+
+#rightBar{
+	height: 99px;
+	border: solid black 1px;
+}
