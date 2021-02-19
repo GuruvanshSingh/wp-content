@@ -649,7 +649,10 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
 	display: block;
-	width: 100%;
+width: 100%;
+position: absolute;
+left: 60%;
+top: 6.5%;
 }
 
 .main-navigation ul {
@@ -971,12 +974,14 @@ textarea {
 .site-branding{
 height: 99px;
 margin-left: 10%;
+margin-top: 1%;
 }
 
 #leftBar{
 	height: 99px;
 	border: solid black 1px;
 	background-image: url("/assets/img/logo_circle.png");
+	background-color: black;
 	width: 10%;
 	float: left;
 }
