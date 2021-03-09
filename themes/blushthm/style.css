@@ -988,7 +988,7 @@ margin-top: 1%;
 #centerBar{
 	height: 101px;
 	border: solid black 1px;
-	width: 56.2%;
+	width: 58.2%;
 	position: absolute;
 	left: 20.7%;
 }
@@ -1047,12 +1047,15 @@ margin-top: 1%;
 	height: 100px;
 	padding: 14px;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 1000px;
 	padding-top: 20px;
 }
 
 .site-info{
 	text-align: center;
+	background: black;
+	color: white;
+	padding: 20px;
 }
 
 #leftBar a{
@@ -1060,6 +1063,7 @@ margin-top: 1%;
 	color: black;
 	font-family: "Ubuntu", Sans-serif;
 	cursor: pointer;
+	font-weight: 1000;
 }
 
 .main-navigation a{
@@ -1071,4 +1075,23 @@ margin-top: 1%;
 .main-navigation a:hover{
 	scale: 1.1;
 	padding: 5px;
+}
+
+.post{
+	width: 70%;
+	padding: 10px 20px;
+	background-color: rgb(255, 233, 237);
+	text-align: center;
+	margin: 20px 10%;
+	border-radius: 15px;
+}
+
+.post a{
+	color: black;
+}
+
+.post img{
+	height: 300px;
+	width: auto;
+	margin: 10px;
 }

@@ -22,7 +22,6 @@
 			<h3>About</h3>
 			<h3>Blog</h3>
 			<h3>Contact</h3>
-			<h3>Complaints</h3>
 		</div>
 			<div class="footerRight">
 				<div class="logo">
