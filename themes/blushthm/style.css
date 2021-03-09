@@ -1005,7 +1005,6 @@ margin-top: 1%;
 
 #rightBar{
 	height: 101px;
-	border: solid black 1px;
 	width: 6.3%;
 	left: 76.8%;
 	position: absolute;
@@ -1054,4 +1053,16 @@ margin-top: 1%;
 
 .site-info{
 	text-align: center;
+}
+
+#leftBar a{
+	text-decoration: none;
+	color: black;
+	font-family: "Ubuntu", Sans-serif;
+	cursor: pointer;
+}
+
+.main-navigation a{
+	color: black;
+	font-family: "Ubuntu", Sans-serif;
 }
