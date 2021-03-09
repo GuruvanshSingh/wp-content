@@ -86,6 +86,7 @@ body {
  */
 main {
 	display: block;
+	padding: 0px 12%;
 }
 
 /**
@@ -518,7 +519,7 @@ object {
 
 img {
 	height: auto;
-	max-width: 100%;
+	width: 100%;
 }
 
 figure {
@@ -649,7 +650,10 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
 	display: block;
-	width: 100%;
+width: 100%;
+position: absolute;
+left: 60%;
+top: 6.5%;
 }
 
 .main-navigation ul {
@@ -690,6 +694,7 @@ textarea {
 
 .main-navigation li {
 	position: relative;
+	margin-left: 10px;
 }
 
 .main-navigation a {
@@ -966,4 +971,85 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+.site-branding{
+height: 101px;
+margin-left: 13.4%;
+margin-top: 1%;
+}
+
+#leftBar{
+	height: 101px;
+	width: 6.4%;
+	float: left;
+}
+
+#centerBar{
+	height: 101px;
+	border: solid black 1px;
+	width: 56.2%;
+	position: absolute;
+	left: 20.7%;
+}
+
+#centerTop{
+	height: 50%;
+	border: solid black 1px;
+}
+
+#centerBottom{
+	height: 50%;
+	border: solid black 1px;
+}
+
+#rightBar{
+	height: 101px;
+	border: solid black 1px;
+	width: 6.3%;
+	left: 76.8%;
+	position: absolute;
+}
+
+.footerLink{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.footerLeft{
+	text-align: center;
+    height: 200px;
+    width: 33%;
+    border-right: solid black 1px;
+    padding: 0% 4%;
+}
+
+.footerCenter{
+	text-align: center;
+	height: 200px;
+	width: 34%;
+	border-right: solid black 1px;
+}
+
+.footerRight{
+	text-align: center;
+	height: 200px;
+	width: 33%;
+	padding: 3% 13%;
+}
+
+.logo{
+	border-radius: 50%;
+	border: solid black 3px;
+	width: 100px;
+	height: 100px;
+	padding: 14px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.site-info{
+	text-align: center;
 }

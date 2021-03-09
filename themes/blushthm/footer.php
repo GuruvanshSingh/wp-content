@@ -12,6 +12,24 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+		<div class="footerLink">
+			<div class="footerLeft">
+			<h4>Newsletter</h4>
+			<h2>Do You Want Extra Discount?</h2>
+			<h3>Read more about the processing of your personal information on the PRIVACY POLICY page.</h3>
+			</div>
+			<div class="footerCenter">
+			<h3>About</h3>
+			<h3>Blog</h3>
+			<h3>Contact</h3>
+			<h3>Complaints</h3>
+		</div>
+			<div class="footerRight">
+				<div class="logo">
+					Circle <br> Supplies
+				</div>
+			</div>
+		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'blushthm' ) ); ?>">
 				<?php
