@@ -1065,4 +1065,10 @@ margin-top: 1%;
 .main-navigation a{
 	color: black;
 	font-family: "Ubuntu", Sans-serif;
+	transition-duration: .2s;
+}
+
+.main-navigation a:hover{
+	scale: 1.1;
+	padding: 5px;
 }
