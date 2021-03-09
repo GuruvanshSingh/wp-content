@@ -652,7 +652,7 @@ textarea {
 	display: block;
 width: 100%;
 position: absolute;
-left: 60%;
+left: 50%;
 top: 6.5%;
 }
 
@@ -1015,6 +1015,8 @@ margin-top: 1%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	background-color: black;
+	color: white;
 }
 
 .footerLeft{

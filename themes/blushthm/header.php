@@ -28,7 +28,7 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 		<div id="leftBar">
-		<a href="#/"><div class="logo">
+		<a href="http://sweetscoop.local"><div class="logo">
 					Circle <br> Supplies
 				</div></a>
 		</div>
