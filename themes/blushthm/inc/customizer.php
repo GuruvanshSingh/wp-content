@@ -56,6 +56,5 @@ function blushthm_customize_partial_blogdescription() {
  */
 function blushthm_customize_preview_js() {
 	wp_enqueue_script( 'blushthm-customizer', get_template_directory_uri() . '/assets/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
-	wp_enqueue_script( 'blushthm-customizer', get_template_directory_uri() . '/assets/js/vendor/bootstrap.min.js', array( 'customize-preview' ), _S_VERSION, true );
 }
 add_action( 'customize_preview_init', 'blushthm_customize_preview_js' );
