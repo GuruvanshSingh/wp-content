@@ -1037,6 +1037,11 @@ margin-top: 1%;
 	border-right: solid black 1px;
 }
 
+.footerCenter a{
+	text-decoration: none;
+	color: white;
+}
+
 .footerRight{
 	text-align: center;
 	height: 200px;
@@ -1086,9 +1091,23 @@ margin-top: 1%;
 	padding: 10px 20px;
 	background-color: rgb(255, 233, 237);
 	text-align: center;
-	margin: 20px 10%;
+	margin: 20px 15%;
 	border-radius: 15px;
+	border: solid rgb(255, 102, 128) 3px;
 }
+
+.post .entry-meta{
+	text-align: left;
+	font-size: 12px;
+}
+
+.post .entry-content{
+padding: 0px 10%;
+}
+
+.post .entry-content h2{
+	font-family: "Ubuntu", sans-serif;
+	}
 
 .post a{
 	color: black;
@@ -1098,4 +1117,6 @@ margin-top: 1%;
 	height: 300px;
 	width: auto;
 	margin: 10px;
+	border-radius: 18px;
+	box-shadow: aliceblue 6px 10px 9px;
 }
