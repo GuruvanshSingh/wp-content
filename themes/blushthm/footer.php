@@ -19,9 +19,9 @@
 			<h3>Subscribe to our Newsletters.</h3>
 			</div>
 			<div class="footerCenter">
-			<h3>About</h3>
-			<h3>Blog</h3>
-			<h3>Contact</h3>
+			<a href="http://sweetscoop.local/about/"><h3>About</h3></a>
+			<a href="http://sweetscoop.local/blog/"><h3>Blog</h3></a>
+			<a href="http://sweetscoop.local/contact/"><h3>Contact</h3></a>
 		</div>
 			<div class="footerRight">
 				<div class="logo">
