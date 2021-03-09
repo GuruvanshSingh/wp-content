@@ -29,7 +29,7 @@
 		<div class="site-branding">
 		<div id="leftBar">
 		<a href="http://sweetscoop.local"><div class="logo">
-					Circle <br> Supplies
+					Sweet <br> Scoop
 				</div></a>
 		</div>
 		<div id="centerBar">
