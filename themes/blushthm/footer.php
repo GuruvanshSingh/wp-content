@@ -26,7 +26,7 @@
 		</div>
 			<div class="footerRight">
 				<div class="logo">
-					Circle <br> Supplies
+					Sweet <br> Scoop
 				</div>
 			</div>
 		</div>
