@@ -133,7 +133,8 @@ function blushthm_scripts() {
 
 		//Foundations Scripts
 	//css
-	wp_enqueue_style( 'foundation-style', get_template_directory_uri(), '/assets/css/vendor/foundation.css');
+	wp_enqueue_style( 'foundation-style', get_template_directory_uri(). './assets/css/vendor/foundation.css');
+	wp_enqueue_script( 'foundation-script', get_template_directory_uri(). './assets/js/vendor/foundation.js');
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
