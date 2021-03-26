@@ -3,6 +3,10 @@
  * Registering custom-post types
  */
 
+
+ /**
+ * creating function
+ */
 function blushthm_init() {
     $labels = array(
         'name'                  => _x( 'Cakes', 'Post type general name', 'blushthm' ),
@@ -30,6 +34,9 @@ function blushthm_init() {
         'items_list_navigation' => _x( 'Cakes list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'blushthm' ),
         'items_list'            => _x( 'Cakes list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'blushthm' ),
     );     
+
+    //defining array
+    
     $args = array(
         'labels'             => $labels,
         'description'        => "let's explore some of our Cakes.",
@@ -48,6 +55,8 @@ function blushthm_init() {
         'show_in_rest'       => true
     );
     
+    //registering posts type
     register_post_type( 'blushthm_cake', $args );
 }
+//init action
 add_action( 'init', 'blushthm_init' );
