@@ -32,7 +32,7 @@ function blushthm_init() {
     );     
     $args = array(
         'labels'             => $labels,
-        'description'        => 'Cake custom post type.',
+        'description'        => "let's explore some of our Cakes.",
         'public'             => true,
         'publicly_queryable' => true,
         'show_ui'            => true,
