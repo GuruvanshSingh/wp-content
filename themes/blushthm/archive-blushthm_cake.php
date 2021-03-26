@@ -7,6 +7,9 @@
  * @package Blush_Theme
  */
 
+/**
+ * get Header
+ */
 get_header();
 ?>
 
@@ -36,7 +39,9 @@ get_header();
 
 			the_posts_navigation();
 
-		else :
+		else :/**
+			* if no posts
+			*/
 
 			get_template_part( 'template-parts/content', 'none' );
 
@@ -46,4 +51,7 @@ get_header();
 	</main><!-- #main -->
 
 <?php
+/**
+ * get Footer
+ */
 get_footer();
