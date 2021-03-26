@@ -104,3 +104,28 @@ padding: 10px;
     margin-top: 8%;
     height: 406px;
 }
+
+.single .post-thumbnail img{
+    height: 550px;
+    width: auto;
+    float: left;
+}
+
+.single .blushthm_cake{
+    height: 640px;
+    padding: 54px 100px;
+}
+
+.single .blushthm_cake .entry-content{
+    width: 45%;
+    float: right;
+    color: #fff;
+    font-family: cursive;
+    background: #ffa6b7;
+    padding: 35px;
+    position: absolute;
+    font-size: 21px;
+    left: 36%;
+    margin-top: 8%;
+    height: 406px;
+}
