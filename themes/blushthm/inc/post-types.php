@@ -40,7 +40,7 @@ function blushthm_init() {
         'query_var'          => true,
         'rewrite'            => array( 'slug' => 'cakes' ),
         'capability_type'    => 'post',
-        'has_archive'        => false,
+        'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
         'menu_icon'          => 'dashicons-buddicons-community',
