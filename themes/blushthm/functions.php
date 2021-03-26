@@ -136,7 +136,6 @@ function blushthm_scripts() {
 	wp_enqueue_script( 'custom-script', get_template_directory_uri(). '/assets/js/main.js');
 
 
-
 		//Foundations Scripts
 	//css
 	wp_enqueue_style( 'foundation-style', get_template_directory_uri(). '/assets/css/vendor/foundation.css');
@@ -174,3 +173,29 @@ require get_template_directory() . '/inc/woocommerce.php';
  * Custom post types 
  */
 require get_template_directory() . '/inc/post-types.php';
+
+/**
+ * Enqeuing block editor assets
+ */
+function sampletheme_enqueue_block_editor_assets() {
+    wp_enqueue_script(
+        'editor-script',
+        get_template_directory_uri() . '/js/editor.js',
+        array('wp-blocks',
+            'wp-dom-ready',
+            'wp-edit-post'
+            )
+    );
+}
+add_action( 'enqueue_block_editor_assets', 'sampletheme_enqueue_block_editor_assets' );
+
+/**
+ * Enqeuing block assets
+ */
+function sampletheme_enqueue_block_assets() {
+    wp_enqueue_style(
+    'blocks-style',
+    get_template_directory_uri() . '/css/blocks.css'
+    );
+}
+add_action( 'enqueue_block_assets', 'sampletheme_enqueue_block_assets' );
