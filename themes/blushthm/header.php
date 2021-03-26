@@ -32,14 +32,14 @@
 <header id="masthead" class="site-header">
 		<div class="grid-container">
 			<div class="grid-x">
-				<div class="cell small-2">
+				<div class="cell small-2 large-3">
 					<div class="site-branding">
 						<?php
 							the_custom_logo();
 						?>
 					</div><!-- .site-branding -->
 				</div><!-- .cell -->
-				<div class="cell small-10">
+				<div class="cell small-10 large-9">
 					<nav id="site-navigation" class="main-navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sampletheme' ); ?></button>
 					<?php

@@ -324,3 +324,13 @@ text-decoration: none;
     color: #ea4269;
     border: solid 3px #ea4269;
 }
+
+@media screen and (max-width: 480px) {
+    .menu .nav {
+        position: relative;
+        background-color: #000000;
+        left: 0px;
+        border-color: #e51d25;
+        display: inline-block !important;
+    }
+}
