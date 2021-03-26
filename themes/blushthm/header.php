@@ -26,22 +26,6 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blushthm' ); ?></a>
 
 
-	<header class="sticky-shrinknav-header">
-  <h1 class="sticky-shrinknav-header-title">sticky-shrinknav</h1>
-  <nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blushthm' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav>
-</header>
-
-
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 		<div id="leftBar">
@@ -55,6 +39,16 @@
 		</div>
 		<div id="rightBar"></div>
 		</div><!-- .site-branding -->
-
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blushthm' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				)
+			);
+			?>
+		</nav>
 		<!-- #site-navigation -->
 	</header><!-- #masthead -->
