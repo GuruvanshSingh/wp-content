@@ -26,29 +26,30 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blushthm' ); ?></a>
 
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-		<div id="leftBar">
-		<a href="http://sweetscoop.local"><div class="logo">
-					Sweet <br> Scoops
-				</div></a>
-		</div>
-		<div id="centerBar">
-			<div id="centerTop"></div>
-			<div id="centerBottom"></div>
-		</div>
-		<div id="rightBar"></div>
-		</div><!-- .site-branding -->
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blushthm' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav>
-		<!-- #site-navigation -->
-	</header><!-- #masthead -->
+<!-- Start Top Bar -->
+<header id="masthead" class="site-header">
+		<div class="grid-container">
+			<div class="grid-x">
+				<div class="cell small-2">
+					<div class="site-branding">
+						<?php
+							the_custom_logo();
+						?>
+					</div><!-- .site-branding -->
+				</div><!-- .cell -->
+				<div class="cell small-10">
+					<nav id="site-navigation" class="main-navigation">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sampletheme' ); ?></button>
+					<?php
+					wp_nav_menu(
+						array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+						)
+					);
+					?>
+					</nav><!-- .site-navigation -->
+				</div><!-- .cell -->
+			</div><!-- .grid-x -->
+		</div><!-- .grid-container -->
+	</header>
