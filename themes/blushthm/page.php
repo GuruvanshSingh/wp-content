@@ -12,13 +12,16 @@
  * @package Blush_Theme
  */
 
+ /**
+ * get Header
+ */
 get_header();
 ?>
 
 	<main id="primary" class="site-main">
 
 		<?php
-		while ( have_posts() ) :
+		while ( have_posts() ) :   //* while loop
 			the_post();
 
 			get_template_part( 'template-parts/content', 'page' );
@@ -34,4 +37,7 @@ get_header();
 	</main><!-- #main -->
 
 <?php
+/**
+ * get footer
+ */
 get_footer();
