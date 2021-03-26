@@ -12,6 +12,10 @@
  * @package Blush_Theme
  */
 
+
+ /**
+ * get Header
+ */
 get_header();
 ?>
 
@@ -53,5 +57,13 @@ get_header();
 	</main><!-- #main -->
 
 <?php
+
+/**
+ * get sidebar
+ */
 get_sidebar();
+
+/**
+ * get footer
+ */
 get_footer();
