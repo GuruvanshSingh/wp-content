@@ -11,6 +11,43 @@
 
 ?>
 
+<!-- A custom WP_Query() for my Cake posts -->
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<?php
+		$cake_args = array(
+			'post_type' => 'blushthm_cake',
+			'posts_per_page' => 3,
+		);
+
+		$cake_query = new WP_Query( $cake_args );
+
+		if ( $cake_query->have_posts() ) {
+			while ( $cake_query->have_posts() ) {
+				$cake_query->the_post();
+				?>
+					<!-- Title -->
+					<div class= "small-12 large-12 cell">
+						<h3 class= "qTitle"><?php the_title(); ?></h3>
+					</div>
+					<!-- Featured Image post type -->
+					<div class= "qpic">
+						<?php the_post_thumbnail(); ?>
+					</div>
+					<div class= "small-12 large-12 cell text">
+						<!-- Excerpt of post type -->
+						<p class= "qExcerpt"><?php the_excerpt(); ?></p>
+						<!-- Post Link of post type -->
+						<p class= "qPostLink"><?php echo '<a href="' . esc_url( get_permalink() ) . '" class="qLink">Read more</a>'?></p>
+					</div>
+				<?php
+			}
+		}
+		?>
+	</div>
+</div>
+
+
 	<footer id="colophon" class="site-footer">
 		<div class="footerLink">
 			<div class="footerLeft">
