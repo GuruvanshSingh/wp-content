@@ -1081,11 +1081,6 @@ margin-top: 1%;
 	transition-duration: .2s;
 }
 
-.main-navigation a:hover{
-	scale: 1.1;
-	padding: 5px;
-}
-
 .post{
 	width: 70%;
 	padding: 10px 20px;

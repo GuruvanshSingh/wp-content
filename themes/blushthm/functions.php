@@ -131,6 +131,12 @@ add_action( 'widgets_init', 'blushthm_widgets_init' );
 function blushthm_scripts() {
 	wp_enqueue_style( 'blushthm-style', get_stylesheet_uri(), array(), _S_VERSION );
 
+	// Custom Style css and js
+	wp_enqueue_style( 'custom-style', get_template_directory_uri(). '/assets/css/custom.css');
+	wp_enqueue_script( 'custom-script', get_template_directory_uri(). '/assets/js/main.js');
+
+
+
 		//Foundations Scripts
 	//css
 	wp_enqueue_style( 'foundation-style', get_template_directory_uri(). '/assets/css/vendor/foundation.css');
