@@ -26,27 +26,28 @@
 			while ( $cake_query->have_posts() ) {
 				$cake_query->the_post();
 				?>
+				<div class= "small-12 large-4 cell">
 					<!-- Title -->
-					<div class= "small-12 large-12 cell">
+					<div class= "custom-post-title">
 						<h3 class= "qTitle"><?php the_title(); ?></h3>
 					</div>
 					<!-- Featured Image post type -->
-					<div class= "qpic">
+					<div class= "custom-post-image">
 						<?php the_post_thumbnail(); ?>
 					</div>
-					<div class= "small-12 large-12 cell text">
+					<div class= "custom-post-excerpt">
 						<!-- Excerpt of post type -->
 						<p class= "qExcerpt"><?php the_excerpt(); ?></p>
 						<!-- Post Link of post type -->
 						<p class= "qPostLink"><?php echo '<a href="' . esc_url( get_permalink() ) . '" class="qLink">Read more</a>'?></p>
 					</div>
+			</div>
 				<?php
 			}
 		}
 		?>
 	</div>
 </div>
-
 
 	<footer id="colophon" class="site-footer">
 		<div class="footerLink">
