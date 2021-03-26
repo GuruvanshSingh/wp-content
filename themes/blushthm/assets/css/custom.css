@@ -72,6 +72,7 @@ padding: 10px;
 }
 
 .archive-description{
+    text-align: center;
     color: #ea4269;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
