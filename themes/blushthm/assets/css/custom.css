@@ -14,5 +14,16 @@
 
 .main-navigation li a{
     color: #ea4269;
+    font-family: 'Dancing Script', cursive;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.main-navigation li{
+    transition-duration: .5s;
+}
+
+.main-navigation li:hover{
+    scale: 1.1;
 }
 
