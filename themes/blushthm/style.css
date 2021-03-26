@@ -962,6 +962,7 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
+/* center align */
 .aligncenter {
 	clear: both;
 	display: block;
@@ -970,16 +971,19 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
+/* logo css */
 .site-branding{
 margin-top: 1%;
 }
 
+/* left section */
 #leftBar{
 	height: 101px;
 	width: 6.4%;
 	float: left;
 }
 
+/* left section */
 #centerBar{
 	height: 101px;
 	border: solid black 1px;
@@ -988,16 +992,19 @@ margin-top: 1%;
 	left: 20.7%;
 }
 
+/* left section */
 #centerTop{
 	height: 50%;
 	border: solid black 1px;
 }
 
+/* left section */
 #centerBottom{
 	height: 50%;
 	border: solid black 1px;
 }
 
+/* left section */
 #rightBar{
 	height: 101px;
 	width: 6.3%;
@@ -1005,6 +1012,7 @@ margin-top: 1%;
 	position: absolute;
 }
 
+/* left section */
 .footerLink{
 	display: flex;
 	flex-wrap: wrap;
@@ -1013,37 +1021,7 @@ margin-top: 1%;
 	color: white;
 }
 
-.footerRight .logo{
-	border: white solid 3px;
-}
-
-.footerLeft{
-	text-align: center;
-    height: 200px;
-    width: 33%;
-    border-right: solid black 1px;
-    padding: 0% 4%;
-}
-
-.footerCenter{
-	text-align: center;
-	height: 200px;
-	width: 34%;
-	border-right: solid black 1px;
-}
-
-.footerCenter a{
-	text-decoration: none;
-	color: white;
-}
-
-.footerRight{
-	text-align: center;
-	height: 200px;
-	width: 33%;
-	padding: 3% 13%;
-}
-
+/* logo */
 .logo{
 	border-radius: 50%;
 	border: solid black 3px;
@@ -1055,6 +1033,7 @@ margin-top: 1%;
 	padding-top: 20px;
 }
 
+/* site description */
 .site-info{
 	text-align: center;
 	background: black;
@@ -1062,20 +1041,14 @@ margin-top: 1%;
 	padding: 20px;
 }
 
-#leftBar a{
-	text-decoration: none;
-	color: black;
-	font-family: "Ubuntu", Sans-serif;
-	cursor: pointer;
-	font-weight: 1000;
-}
-
+/* nav-links */
 .main-navigation a{
 	color: black;
 	font-family: "Ubuntu", Sans-serif;
 	transition-duration: .2s;
 }
 
+/* blog section posts css */
 .post{
 	width: 70%;
 	padding: 10px 20px;
@@ -1086,23 +1059,28 @@ margin-top: 1%;
 	border: solid rgb(255, 102, 128) 3px;
 }
 
+/* post */
 .post .entry-meta{
 	text-align: left;
 	font-size: 12px;
 }
 
+/* post */
 .post .entry-content{
 padding: 0px 10%;
 }
 
+/* post text*/
 .post .entry-content h2{
 	font-family: "Ubuntu", sans-serif;
 	}
 
+/* post links */
 .post a{
 	color: black;
 }
 
+/* post images */
 .post img{
 	height: 300px;
 	width: auto;
