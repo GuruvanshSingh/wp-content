@@ -71,3 +71,35 @@ padding: 10px;
     font-size: 70px;
 }
 
+.archive-description{
+    color: #ea4269;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+.archive .blushthm_cake a img{
+    height: 550px;
+    width: auto;
+    float: left;
+}
+
+.archive .blushthm_cake{
+    height: 640px;
+    padding: 54px 100px;
+}
+
+.archive .blushthm_cake .entry-content{
+    width: 45%;
+    float: right;
+    color: #fff;
+    font-family: cursive;
+    background: #ffa6b7;
+    padding: 35px;
+    position: absolute;
+    font-size: 21px;
+    left: 36%;
+    margin-top: 8%;
+    height: 406px;
+}
