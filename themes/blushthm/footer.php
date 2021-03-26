@@ -12,8 +12,9 @@
 ?>
 
 <!-- A custom WP_Query() for my Cake posts -->
-<div class="grid-container">
-	<div class="grid-x grid-padding-x">
+<div class="large-12 cell custom-title"> You Want a Piece of Me?</div>
+
+	<div class="grid-x grid-padding-x custom-posts-section">
 		<?php
 		$cake_args = array(
 			'post_type' => 'blushthm_cake',
@@ -47,40 +48,29 @@
 		}
 		?>
 	</div>
-</div>
 
-	<footer id="colophon" class="site-footer">
-		<div class="footerLink">
-			<div class="footerLeft">
-			<h4>Newsletter</h4>
+
+	<div class="grid-x grid-padding-x grid-container ">
+        <div class="large-4 footer columns">
+			<h4 class="h3-subtitle" style="margin-top: 20px;">Newsletter</h4>
 			<h2>Do You Want Extra Discount?</h2>
 			<h3>Subscribe to our Newsletters.</h3>
-			</div>
-			<div class="footerCenter">
-			<a href="http://sweetscoop.local/about/"><h3>About</h3></a>
-			<a href="http://sweetscoop.local/blog/"><h3>Blog</h3></a>
-			<a href="http://sweetscoop.local/contact/"><h3>Contact</h3></a>
 		</div>
-			<div class="footerRight">
-				<div class="logo">
-					Sweet <br> Scoop
-				</div>
+        <div class="large-4 columns">
+			<ul class="menu vertical">
+				<a class="footer-links" href="http://sweetscoop.local/about/"><h3>About</h3></a>
+				<a class="footer-links" href="http://sweetscoop.local/blog/"><h3>Blog</h3></a>
+				<a class="footer-links" href="http://sweetscoop.local/contact/"><h3>Contact</h3></a>
+			</ul>
+        </div>
+        <div class="large-4 footer columns">
+			<div class="site-branding">
+				<?php
+					the_custom_logo();
+				?>
 			</div>
-		</div>
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'blushthm' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'blushthm' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'blushthm' ), 'blushthm', '<a href="http://guruvanshgarry.com">Guruvansh Singh</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+        </div>
+    </div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
