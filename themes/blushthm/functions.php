@@ -136,7 +136,8 @@ function blushthm_scripts() {
 	wp_enqueue_script( 'custom-script', get_template_directory_uri(). '/assets/js/main.js');
 
 
-		//Foundations Scripts
+	// ! Foundations Scripts
+	
 	//css
 	wp_enqueue_style( 'foundation-style', get_template_directory_uri(). '/assets/css/vendor/foundation.css');
 	//js
