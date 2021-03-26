@@ -1,0 +1,60 @@
+/* Editor Block */
+.wp-block-quote,
+.wp-block-quote.is-style-default {
+    color: blue;
+}
+
+.wp-block-quote.is-style-fancy-quote {
+    color: brown;
+}
+
+.wp-block-buttons .wp-block-button .wp-block-button_link {
+    background-color: brown;
+}
+
+.alignwide {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.alignfull {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.has-strong-magenta-background-color {
+    background-color: #a156b4;
+}
+
+.has-strong-magenta-color {
+    color: #a156b4;
+}
+
+/* Editor Block */
+.wp-block {
+    max-width: 75rem;
+}
+
+.wp-block[data-align|=wide] {
+    max-width: 80rem;
+}
+
+/* Block alignment */
+.is-style-alignarrow {
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block-group__inner-container {
+    max-width: calc( 80rem - 90px );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media( max-width: 85rem ) {
+    .alignfull .wp-block-group__inner-container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
