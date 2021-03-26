@@ -164,3 +164,13 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
+/**
+ * Woocommerce addition.
+ */
+require get_template_directory() . '/inc/woocommerce.php';
+
+
+/**
+ * Custom post types 
+ */
+require get_template_directory() . '/inc/post-types.php';
