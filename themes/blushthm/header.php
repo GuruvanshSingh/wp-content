@@ -55,3 +55,4 @@
 			</div><!-- .grid-x -->
 		</div><!-- .grid-container -->
 	</header>
+<!-- .header-ends -->
