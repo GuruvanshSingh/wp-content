@@ -1,5 +1,18 @@
-.site-branding{
-    background-image: url("../img/logo_circle.png");
-    height: 100px;
-    width: 100px;
+.customm-logo{
+    height: 10%;
 }
+
+.site-header{
+    background: #fff1f6;
+    height: 115px;
+    padding-top: 7px;
+}
+
+.site-header a img{
+    height: 100px;
+}
+
+.main-navigation li a{
+    color: #ea4269;
+}
+

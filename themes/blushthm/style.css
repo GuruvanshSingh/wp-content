@@ -649,11 +649,8 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: block;
-width: 100%;
-position: absolute;
-left: 50%;
-top: 6.5%;
+	margin-top: 34px;
+	float: right;
 }
 
 .main-navigation ul {
@@ -974,8 +971,6 @@ top: 6.5%;
 }
 
 .site-branding{
-height: 101px;
-margin-left: 13.4%;
 margin-top: 1%;
 }
 
